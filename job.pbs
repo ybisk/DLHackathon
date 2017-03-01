@@ -1,0 +1,8 @@
+#! /bin/bash
+#PBS -l nodes=1:gpus=2:shared
+#PBS -l walltime=168:00:00
+#PBS -j oe
+#PBS -N Hackathon
+#PBS -q isi
+
+sleep 21600000
